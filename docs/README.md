@@ -1,6 +1,6 @@
 # Stitched - Journaling App
 
-<img align="right" style="width:150px; height:auto;" src="/resources/splash.png">
+<img align="right" style="width:150px; height:auto;" src="/frontend/resources/splash.png">
 
 <p>
   <img src="https://img.shields.io/badge/Ionic-grey?logo=ionic">
@@ -10,10 +10,11 @@
   <img src="https://img.shields.io/badge/Node.js-grey?logo=node.js">
   <img src="https://img.shields.io/badge/Express.js-grey?logo=express">
   <img src="https://img.shields.io/badge/MongoDB-grey?logo=mongodb">
+  <img src="https://img.shields.io/badge/🔨-Prototype_App-grey?labelColor=lightgrey">
 </p>
 
-A mobile journaling app built with Ionic (React) and a Node.js/Express backend using MongoDB.<br>
-Stitched supports tracking daily tasks (Moments), notes (Memories), and events/episodes (Mementos), with built-in history look-up and statistics.
+A mobile journaling app built with Ionic (React & TypeScript) and a Node.js/Express backend using MongoDB.<br>
+Stitched supports tracking recurring tasks (Moments), daily notes (Memories), and events/episodes (Mementos), with built-in history look-up and statistics.
 
 > [!CAUTION]
 > Development on this project is currently paused, and it isn't production-ready. See [Current Status & Limitations](#current-status--limitations) for details.
@@ -365,14 +366,13 @@ npx capacitor-assets generate --ios
 npx cap sync ios
 ```
 
-9. Additional setup: While I can provide the steps required to run the app on Android, I can’t provide their equivalents for iOS, as I don’t have the setup to test or verify them.
+9. Additional setup: While I can provide the steps required to run the app on Android, I can’t provide their equivalents for iOS, as I don’t have the setup to test or verify them.<br>
+   The manual changes applied on Android are:
 
-The manual changes applied on Android are:
-
-- Enabling `usesCleartextTraffic` in the manifest to allow HTTP connections.
-- Adding a `POST_NOTIFICATIONS` permission to the manifest.
-- Adding code to request notification permissions on app start.
-- Copying the notification icon (`resources/ic_notif_icon.png`) to the resources folder.
+   - Enabling `usesCleartextTraffic` in the manifest to allow HTTP connections.
+   - Adding a `POST_NOTIFICATIONS` permission to the manifest.
+   - Adding code to request notification permissions on app start.
+   - Copying the notification icon (`resources/manual/ic_notif_icon.png`) to the resources folder.
 
 10. Open in Xcode:
 

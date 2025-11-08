@@ -15,23 +15,24 @@ To get the Android version of the app working correctly, a few changes must be a
 
 ## HTTP Connections Permission
 
-To allow HTTP connections from the app edit [`android/app/src/main/AndroidManifest.xml`](../frontend/android/app/src/main/AndroidManifest.xml) to have following attribute inside the `<application>` tag:
+To allow HTTP connections from the app edit `android/app/src/main/AndroidManifest.xml` to have following attribute inside the `<application>` tag:
 
 ```xml
 <application
   ...
-  android:usesCleartextTraffic="true">
+  android:usesCleartextTraffic="true"
+>
 ```
 
 ## Post Notifications Permission
 
-In the same [`android/app/src/main/AndroidManifest.xml`](../frontend/android/app/src/main/AndroidManifest.xml), add the following line after the existing `uses-permission` tags:
+In the same `android/app/src/main/AndroidManifest.xml`, add the following line after the existing `uses-permission` tags:
 
 ```xml
 <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 ```
 
-Then update [`android/app/arc/main/java/io/ionic/stitched/MainActivity.java`](../frontend/android/app/arc/main/java/io/ionic/stitched/MainActivity.java) to:
+Then update `android/app/arc/main/java/io/ionic/stitched/MainActivity.java` to:
 
 ```java
 package io.ionic.stitched;
@@ -65,7 +66,7 @@ Note that a production app should have multiple icon sizes for different screen 
 
 ## Splash Screen
 
-In the file [`android/app/src/main/res/values/styles.xml`](../frontend/android/app/src/main/res/values/styles.xml) replace:
+In the file `android/app/src/main/res/values/styles.xml` replace:
 
 ```xml
 <style name="AppTheme.NoActionBarLaunch" parent="Theme.SplashScreen">
@@ -84,3 +85,9 @@ With the following:
   <item name="android:background">@drawable/splash</item>
 </style>
 ```
+
+This ensures the app's splash screen background color looks right on Android 12+ devices.
+
+---
+
+[<- Back to Main Page](../)
