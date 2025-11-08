@@ -1,0 +1,39 @@
+/*Blocks*/
+.container {
+  padding: 10px;
+  width: 100%;
+  border: 1px dashed var(--ion-custom-gray6);
+}
+.page-header {
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  background: var(--ion-background-color);
+  border-bottom: 1px dashed var(--ion-custom-gray6);
+}
+
+/*Grid*/
+ion-grid {
+  padding: 0;
+  height: 100%;
+}
+ion-row {
+  display: flex;
+  flex-flow: row wrap;
+}
+ion-col {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+}
+ion-list {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.list-selected {
+  background: var(--ion-custom-gray2);
+  color: var(--ion-custom-gray7);
+  border: 1px solid var(--ion-custom-gray6);
+  border-radius: 20px;
+}

@@ -1,0 +1,50 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+
+:root {
+  --ion-custom-gray1: #121212;
+  --ion-custom-gray1-rgb: 18, 18, 18;
+
+  --ion-custom-gray2: #1e2023;
+  --ion-custom-gray2-rgb: 30, 32, 35;
+
+  --ion-custom-gray3: #2b2d31;
+  --ion-custom-gray3-rgb: 43, 45, 49;
+
+  --ion-custom-gray4: #383a3e;
+  --ion-custom-gray4-rgb: 56, 58, 62;
+
+  --ion-custom-gray5: #68696b;
+  --ion-custom-gray5-rgb: 104, 105, 107;
+
+  --ion-custom-gray6: #a3a3a3;
+  --ion-custom-gray6-rgb: 163, 163, 163;
+
+  --ion-custom-gray7: #d8dade;
+  --ion-custom-gray7-rgb: 216, 218, 222;
+
+  --ion-color-primary: var(--ion-custom-gray1);
+  --ion-color-primary-rgb: var(--ion-custom-gray1-rgb);
+  --ion-color-primary-contrast: var(--ion-custom-gray7);
+  --ion-color-primary-contrast-rgb: var(--ion-custom-gray7-rgb);
+  --ion-color-primary-shade: var(--ion-custom-gray4);
+  --ion-color-primary-tint: var(--ion-custom-gray6);
+
+  --ion-color-secondary: var(--ion-custom-gray1);
+  --ion-color-secondary-rgb: var(--ion-custom-gray1-rgb);
+  --ion-color-secondary-contrast: var(--ion-custom-gray6);
+  --ion-color-secondary-contrast-rgb: var(--ion-custom-gray6-rgb);
+  --ion-color-secondary-shade: var(--ion-custom-gray7);
+  --ion-color-secondary-tint: var(--ion-custom-gray4);
+
+  --ion-color-tertiary: var(--ion-custom-gray1);
+  --ion-color-tertiary-rgb: var(--ion-custom-gray1-rgb);
+  --ion-color-tertiary-contrast: var(--ion-custom-gray6);
+  --ion-color-tertiary-contrast-rgb: var(--ion-custom-gray6-rgb);
+  --ion-color-tertiary-shade: var(--ion-custom-gray7);
+  --ion-color-tertiary-tint: var(--ion-custom-gray4);
+
+  --ion-color-success: #051306;
+  --ion-color-warning: #150f00;
+  --ion-color-danger: #2a0004;
+}

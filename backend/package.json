@@ -1,0 +1,31 @@
+{
+  "name": "ionic-react-journaling-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "^22.14.0",
+    "npm": "^10.1.0"
+  },
+  "scripts": {
+    "test": "node .",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElenaChes/ionic-react-journaling-app"
+  },
+  "author": "Len",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^7.8.6"
+  },
+  "dockerfile": {
+    "port": 8080
+  }
+}

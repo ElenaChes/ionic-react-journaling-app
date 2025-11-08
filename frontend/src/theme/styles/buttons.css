@@ -1,0 +1,103 @@
+/*Buttons*/
+ion-button {
+  border: 1px solid var(--ion-custom-gray6);
+  border-radius: 20px;
+  --border-radius: 20px !important;
+}
+.reset-button {
+  position: absolute;
+  top: 10px;
+  right: 110px;
+  margin-inline: auto;
+  width: fit-content;
+  border: none;
+  --box-shadow: none;
+}
+.modal-cal-reset {
+  top: 134px;
+}
+.dates-buttons {
+  min-width: 130px;
+  border-color: var(--ion-custom-gray4);
+  color: var(--ion-custom-gray6);
+  border-radius: 5px;
+}
+.button-selected {
+  --background: var(--ion-custom-gray2);
+  color: var(--ion-custom-gray7);
+  border-color: var(--ion-custom-gray6);
+  border-radius: 20px;
+}
+.modal-buttons {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.modal-button {
+  margin: auto;
+}
+button.alert-button.alert-button {
+  color: var(--ion-custom-gray7);
+}
+
+/*Chips*/
+ion-chip {
+  border: 1px solid var(--ion-custom-gray6);
+}
+.chip-predict {
+  border: 1px dashed var(--ion-custom-gray5);
+  color: var(--ion-custom-gray6);
+}
+
+/*Floating button*/
+ion-fab {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+ion-fab-button {
+  --color: var(--ion-custom-gray7);
+  --background: var(--ion-custom-gray2);
+  --border-radius: 15px;
+  width: 50px;
+  height: 40px;
+  margin: 5px;
+}
+.fab-title {
+  --color: var(--ion-custom-gray6);
+  --background: var(--ion-custom-gray1);
+  --border-radius: 0px;
+  border-left: 1px dashed var(--ion-custom-gray6);
+  border-left: 1px dashed var(--ion-custom-gray6);
+  height: 37px;
+  margin: 1px;
+}
+.fab-icon {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/*Segment*/
+ion-segment {
+  position: relative;
+}
+ion-segment-button {
+  font-size: 10px;
+  --background-checked: var(--ion-custom-gray2);
+  --indicator-color: transparent;
+  --color: var(--ion-custom-gray6);
+  --color-checked: var(--ion-custom-gray7);
+  /*--border-radius: 0px 0px 50px 0px;*/
+  height: 20px;
+  min-height: 20px;
+}
+ion-segment-button::part(native) {
+  /*border-radius: 0px 0px 50px 0px;*/
+}
+ion-segment-button ion-label {
+  margin: auto;
+  /*padding-right: 10px;*/
+}

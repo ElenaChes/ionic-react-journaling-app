@@ -1,0 +1,35 @@
+/*Modals*/
+.select-modal ion-toolbar {
+  --background: var(--ion-custom-gray1);
+}
+.select-modal ion-content {
+  --background: var(--ion-custom-gray1);
+  --ion-item-background: var(--ion-custom-gray1);
+}
+.options-modal {
+  --border-radius: 20px 20px 0px 0px;
+  --box-shadow: var(--ion-custom-gray6) 0px 1px 1px, var(--ion-custom-gray6) 0px 0px 0px 1px;
+}
+.dates-modal {
+  --height: 605px;
+  --width: 92%;
+  --border-radius: 20px;
+  --box-shadow: var(--ion-custom-gray6) 0px 1px 1px, var(--ion-custom-gray6) 0px 0px 0px 1px;
+}
+.modal-calendar {
+  display: flex;
+  min-height: 365px;
+  border-bottom: none;
+  padding: 0;
+}
+.modal-calendar ion-datetime {
+  margin: 0;
+}
+.modal-calendar ion-datetime::part(calendar-day) {
+  border-radius: 5px;
+  margin: 1px;
+}
+.modal-calendar ion-datetime::part(calendar-day active) {
+}
+.modal-calendar ion-datetime::part(calendar-day today) {
+}

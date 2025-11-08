@@ -1,0 +1,142 @@
+/*Base elements*/
+ion-skeleton-text {
+  margin: 0;
+}
+ion-header {
+  position: absolute;
+  box-shadow: none !important;
+  text-align: center;
+}
+
+ion-toast {
+  font-size: 16px;
+  text-align: center;
+  --color: var(--ion-custom-gray7);
+  --background: var(--ion-custom-gray1);
+  --border-color: var(--ion-custom-gray5);
+  --border-width: 1px;
+  --border-style: solid;
+  --box-shadow: var(--ion-custom-gray1) 0px 20px 20px, var(--ion-custom-gray1) 0px 0px 0px 1px;
+}
+
+ion-title {
+  font-size: 16px;
+  text-align: center;
+}
+ion-tab-bar {
+  height: 50px;
+}
+.icon {
+  position: absolute;
+  margin: 2px;
+  margin-left: 5px;
+  color: var(--ion-custom-gray6);
+}
+
+/*Cards*/
+ion-card-header {
+  padding: 10px;
+}
+ion-card-title {
+  font-size: 16px;
+  --font-size: 16px;
+  text-align: center;
+}
+ion-card,
+ion-card-content {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+.mid-card {
+  padding-bottom: 5px;
+}
+.small-card {
+  padding-bottom: 0px;
+  margin-bottom: -10px;
+}
+.has-card-footer {
+  margin-bottom: 35px;
+}
+.card-footer {
+  position: absolute;
+  bottom: 5px !important;
+  left: 0;
+  right: 0;
+}
+
+/*Aligning*/
+.wide {
+  width: 100%;
+}
+.center {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+.align-left {
+  margin-left: 22px;
+  margin-right: 0px;
+  float: left;
+}
+.align-left-tight {
+  margin-left: 12px;
+  margin-right: 0px;
+  float: left;
+}
+.align-right {
+  margin-right: 22px;
+  margin-left: 0px;
+  float: right;
+}
+.align-right-tight {
+  margin-right: 12px;
+  margin-left: 0px;
+  float: right;
+}
+
+/*Borders*/
+.no-top {
+  border-top: none;
+}
+.no-bottom {
+  border-bottom: none;
+}
+.no-left {
+  border-left: none;
+}
+.no-right {
+  border-right: none;
+}
+.underline {
+  border-bottom: 1px solid var(--ion-custom-gray6);
+}
+.underline-soft {
+  border-bottom: 1px solid var(--ion-custom-gray4);
+}
+.top-line {
+  border-top: 1px solid var(--ion-custom-gray5);
+}
+.right-line {
+  border-right: 1px solid var(--ion-custom-gray6);
+}
+.left-line {
+  border-left: 1px solid var(--ion-custom-gray6);
+}
+
+/*Margins*/
+.top {
+  margin-bottom: 10px;
+}
+.bottom {
+  margin-top: 10px;
+}
+.left {
+  margin-right: 5px;
+}
+.right {
+  margin-left: 5px;
+}
+.no-padding {
+  padding: 0;
+}
