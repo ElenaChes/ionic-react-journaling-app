@@ -248,4 +248,4 @@ For example a `Memento` document could look like this:
 
 ---
 
-[<- Back to Main Page](README.md)
+[<- Back to Main Page](../)
